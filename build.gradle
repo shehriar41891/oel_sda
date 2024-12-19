@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()  // Make sure Maven Central is included
+}
+
+dependencies {
+    // MongoDB Java Driver Dependency
+    implementation 'org.mongodb:mongo-java-driver:4.5.0'  // Replace with the latest version if needed
+    // Other dependencies
+}
